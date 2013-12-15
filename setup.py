@@ -32,7 +32,8 @@ setup(
     scripts=[
         'scripts/setup_adt_sdk.sh',
         'scripts/configure_path.sh',
-        'scripts/postactivate',],
+        'scripts/postactivate',
+        'scripts/android_backup.py',],
     include_package_data=True,
     install_requires=[
     ],
