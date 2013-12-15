@@ -29,6 +29,9 @@ setup(
         'wandroid',
     ],
     package_dir={'wandroid': 'wandroid'},
+    scripts=[
+        'scripts/configure_path.sh',
+        'scripts/postactivate',],
     include_package_data=True,
     install_requires=[
     ],
