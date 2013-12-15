@@ -33,7 +33,12 @@ setup(
         'scripts/setup_adt_sdk.sh',
         'scripts/configure_path.sh',
         'scripts/postactivate',
-        'scripts/android_backup.py',],
+        'scripts/android_backup.py',
+    ],
+    entry_points={
+        'console_scripts': [
+            'update-chrome-config = wandroid.apps.chrome.config:main',
+    ]},
     include_package_data=True,
     install_requires=[
     ],
