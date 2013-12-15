@@ -30,6 +30,7 @@ setup(
     ],
     package_dir={'wandroid': 'wandroid'},
     scripts=[
+        'scripts/setup_adt_sdk.sh',
         'scripts/configure_path.sh',
         'scripts/postactivate',],
     include_package_data=True,
