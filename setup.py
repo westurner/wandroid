@@ -28,6 +28,10 @@ setup(
     packages=[
         'wandroid',
     ],
+    namespace_package=[
+        'wandroid',
+        'wandroid.devices',
+    ],
     package_dir={'wandroid': 'wandroid'},
     scripts=[
         'scripts/setup_adt_sdk.sh',
