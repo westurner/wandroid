@@ -1,5 +1,7 @@
 #!/bin/sh
-# Download the Android ADT SDK
+# Download Android ADT SDK
+# -------------------------
+# https://developer.android.com/sdk/index.html
 
 version="20131030"
 vername="adt-bundle-linux-x86-$version"
