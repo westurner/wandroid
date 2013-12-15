@@ -20,11 +20,11 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='wandroid',
     version='0.1.0',
-    description='Python Boilerplate contains all the boilerplate you need to create a Python package.',
+    description='Utilities, tools, and scripts for working with Android',
     long_description=readme + '\n\n' + history,
     author='Wes Turner',
     author_email='wes@wrd.nu',
-    url='https://github.com/westurner/wandroid',
+    url='https://bitbucket.org/westurner/wandroid',
     packages=[
         'wandroid',
     ],
@@ -39,7 +39,7 @@ setup(
     ],
     license="BSD",
     zip_safe=False,
-    keywords='wandroid',
+    keywords='android wandroid',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
