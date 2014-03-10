@@ -43,6 +43,7 @@ setup(
         'console_scripts': [
             'update-chrome-config = wandroid.apps.chrome.config:main',
             'get-chrome-userdata = wandroid.apps.chrome.userdata:main',
+            'wdev = wandroid.devices.utils:main',
     ]},
     include_package_data=True,
     install_requires=[
