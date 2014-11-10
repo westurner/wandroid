@@ -1,6 +1,9 @@
 #!/bin/sh
 
-SDKPATH="/opt/android/adt/sdk"
-PTOOLS="${SDKPATH}/platform-tools/"
+export ANDROID_PATH="${HOME}/.local/android"
+export ANDROID_ADTPATH="${ANDROID_PATH}/adt"
+export ANDROID_SDKPATH="${ANDROID_ADTPATH}/sdk"
+export ANDROID_TOOLSPATH="${ANDROID_SDKPATH}/tools"
+export ANDROID_PTOOLSPATH="${ANDROID_SDKPATH}/platform-tools"
 
-export PATH="${PTOOLS}:${PATH}"
+export PATH="${ANDROID_PTOOLSPATH}:${ANDROID_TOOLSPATH}:${PATH}"
