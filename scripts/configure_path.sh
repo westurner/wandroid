@@ -1,9 +1,10 @@
-#!/bin/sh
+#!/bin/bash -x
 
 export ANDROID_PATH="${HOME}/.local/android"
 export ANDROID_ADTPATH="${ANDROID_PATH}/adt"
 export ANDROID_SDKPATH="${ANDROID_ADTPATH}/sdk"
 export ANDROID_TOOLSPATH="${ANDROID_SDKPATH}/tools"
 export ANDROID_PTOOLSPATH="${ANDROID_SDKPATH}/platform-tools"
+export ANDROID_WORKSPACEPATH="${PROJECT_HOME}/aclipse"
 
 export PATH="${ANDROID_PTOOLSPATH}:${ANDROID_TOOLSPATH}:${PATH}"
