@@ -2,20 +2,11 @@
 wandroid
 ===============================
 
-.. image:: https://badge.fury.io/py/wandroid.png
-    :target: http://badge.fury.io/py/wandroid
-    
-.. image:: https://travis-ci.org/westurner/wandroid.png?branch=master
-        :target: https://travis-ci.org/westurner/wandroid
-
-.. image:: https://pypip.in/d/wandroid/badge.png
-        :target: https://crate.io/packages/wandroid?version=latest
-
-
-Python Boilerplate contains all the boilerplate you need to create a Python package.
+wandroid is a Python package for working with Android SDK and Android
+devices
 
 * Free software: BSD license
-* Documentation: http://wandroid.rtfd.org.
+.. * Documentation: http://wandroid.rtfd.org.
 
 Features
 --------
