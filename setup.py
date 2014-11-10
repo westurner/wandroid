@@ -38,6 +38,7 @@ setup(
         'scripts/configure_path.sh',
         'scripts/postactivate',
         'scripts/android_backup.py',
+        'scripts/android-eclipse.sh',
     ],
     entry_points={
         'console_scripts': [
